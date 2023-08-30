@@ -1,18 +1,28 @@
 body{
     background-color: hsl(216, 12%, 8%);
-    font-family:'Overpass', sans-serif;;
+    font-family:'Overpass', sans-serif;
 }
 /* ========================================
 typography
 */
 
-.rating-star,.rating-num{
+.rating-num{
     width: 2.5rem;
     height: 2.5rem;
     background-color:hsla(216, 12%, 54%, 10%);
     border-radius: 50%;
     display: grid;
     place-items: center;
+}
+
+.add-rating-star{
+    background-image: url(./images/icon-star.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:hsla(216, 12%, 54%, 10%);
+    border-radius: 50%;
 }
 .rating-num:hover{
     background-color: hsl(25, 97%, 53%);
@@ -29,14 +39,14 @@ typography
     text-align: left;
 }
 .rating-paragraph p{
-    font-size: 1rem;
+    font-size: 15px;
     color:hsl(216, 12%, 54%);
     font-weight: 400;
     text-align: left;
 }
 .selection{
     background-color: hsla(216, 12%, 54%, 10%);
-    width: 50%;
+    width: 60%;
     display: grid;
     place-content: center;
     height: 1.5em;
@@ -53,6 +63,7 @@ typography
 .submit-button button{
     width: 100%;
     height: 2.5rem;
+    margin-top:1.5rem ;
     border-radius: 1.3rem;
     font-size: 1rem;
     font-weight: 700;
@@ -66,13 +77,37 @@ typography
     background-color: #fff;
     
 }
+/* layout
+===================================================
+*/
 .container{
-    background-color: hsl(213, 19%, 18%);
-    width: 350px;
-    padding: 1em;
-    border-radius: 15px;
+    display: grid;
+    place-content: center;
+    height: 100vh;
 }
 .thank-you-container{
+    
+    display: none;
+}
+.rating-container{
+    background-color: hsl(213, 19%, 18%);
+    width: 300px;
+    padding: 2em;
+    border-radius: 15px;
+}
+.add-container{
+    display: block;
     display: grid;
     place-items: center;
+}
+.remove-container{
+    display: none;
+}
+.rating-star{
+    display: flex;
+    gap: 1em;
+}
+.rating-numbers{
+    display: flex;
+    justify-content: space-between;
 }

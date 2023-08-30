@@ -11,24 +11,11 @@
 </head>
 <body>
 <div class="container">
+    <!-- this is the rating container section -->
     <div class="rating-container">
         <div class="rating-star-container">
             <div class="rating-star">
-                <img src="./images/icon-star.svg" alt="star-icon" class="star-icon">
             </div>
-            <div class="rating-star">
-                <img src="./images/icon-star.svg" alt="star-icon" class="star-icon">
-            </div>
-            <div class="rating-star">
-                <img src="./images/icon-star.svg" alt="star-icon" class="star-icon">
-            </div>
-            <div class="rating-star">
-                <img src="./images/icon-star.svg" alt="star-icon" class="star-icon">
-            </div>
-            <div class="rating-star">
-                <img src="./images/icon-star.svg" alt="star-icon" class="star-icon">
-            </div>
-            
         </div>
         <div class="rating-paragraph">
             <h2>How did we do?  </h2>
@@ -36,20 +23,20 @@
 
         </div>
         <div class="rating-numbers">
-            <div class="num-one rating-num">
+            <div class=" rating-num" data-ratingNum="1">
                 <h2>1</h2> 
             </div>
-            <div class="num-two rating-num">
+            <div class=" rating-num" data-ratingNum="2">
                 <h2>2</h2>
             </div>
-            <div class="num-three rating-num">
+            <div class=" rating-num" data-ratingNum="3">
                 <h2>3</h2>
             </div>
-            <div class="num-four rating-num">
+            <div class=" rating-num" data-ratingNum="4">
                 <h2>4</h2>
             </div>
-            <div class="num-five rating-num">
-                <h2>6</h2>
+            <div class=" rating-num" data-ratingNum="5">
+                <h2>5</h2>
             </div>
 
         </div>
@@ -57,6 +44,21 @@
             <button>submit</button>
         </div>
     </div>
-</div>    
+    <!-- thank you section activated using javascript -->
+    <div class=" thank-you-container rating-container">
+        <div class="thankyou-img">
+            <img src="./images/illustration-thank-you.svg" alt="thankyou-image" class="thankyou-image">
+        </div>
+        <div class="selection">
+            <p> You selected <span></span> out of 5</p>
+        </div>
+        <div class="thank-you-massage">
+            <h2>Thank you! </h2>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+    </div>
+</div>
+    
+<script src="./index.js"></script>
 </body>
 </html>
