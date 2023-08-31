@@ -29,8 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
+![](./images/127.0.0.1_5500_index.html%20(1).png)
 ![](./images/127.0.0.1_5500_index.html%20(2).png)
-
+![](./images/127.0.0.1_5500_index.html%20(3).png)
 
 
 ### Links
@@ -71,7 +72,7 @@ function userRating(ratingNumber) {
 
 ## Author
 
-- Website - [gregory kimanthi](ttps://kimanthigregory.github.io/portfolio-website/)
+- Website - [gregory kimanthi](https://kimanthigregory.github.io/portfolio-website/)
 
 - Twitter - [@techboygabriel](https://www.twitter.com/techboygabriel)
 
